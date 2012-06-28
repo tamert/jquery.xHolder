@@ -1,5 +1,5 @@
 (function ($) {
-	$.fn.placeholder = function (options) {
+	$.fn.xHolder = function (options) {
 		return this.each(function () {
 			$el = $(this);
 
