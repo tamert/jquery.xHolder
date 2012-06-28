@@ -4,6 +4,11 @@
 			$el = $(this);
 
 			var holder_text = $el.attr('rel');
+
+			if ($el.val() == '') {
+				$el.val(holder_text);
+			};
+
 			$el.focusin(function () {
 				if ($el.val() == holder_text) {
 					$el.val('');
